@@ -1,7 +1,7 @@
 ---
 # yaml-language-server: $schema=https://schema.blue-build.org/recipe-v1.json
 # image will be published to ghcr.io/<user>/<name>
-name: template
+name: gblue
 # description will be included in the image's metadata
 description: This is my personal OS image.
 
@@ -21,10 +21,13 @@ modules:
     repos:
       copr:
         - atim/starship
+        - avengemedia/dms
     install:
       packages:
         - micro
         - starship
+        - niri
+        - dms
     remove:
       packages:
         # example: removing firefox (in favor of the flatpak)
