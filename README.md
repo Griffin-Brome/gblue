@@ -1,4 +1,4 @@
-# BlueBuild Template &nbsp; [![bluebuild build badge](https://github.com/Griffin-Brom/gblue/actions/workflows/build.yml/badge.svg)](https://github.com/Griffin-Brom/gblue/actions/workflows/build.yml)
+# BlueBuild Template &nbsp; [![bluebuild build badge](https://github.com/Griffin-Brome/gblue/actions/workflows/build.yml/badge.svg)](https://github.com/Griffin-Brome/gblue/actions/workflows/build.yml)
 
 See the [BlueBuild docs](https://blue-build.org/how-to/setup/) for quick setup instructions for setting up your own repository based on this template.
 
