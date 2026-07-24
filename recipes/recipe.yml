@@ -60,3 +60,8 @@ modules:
     system:
       enabled:
         - greetd
+
+  - type: kargs
+    kargs:
+      - amdgpu.dcdebugmask=0x10  # Not sure why, but this prevents freezing when returning from hibernation/on boot.
+
