@@ -29,6 +29,11 @@ modules:
         - niri
         - dms
         - dms-greeter
+        # Required for file picker popup to work in Firefox.
+        # ref: https://niri-wm.github.io/niri/Important-Software.html#portals
+        - xdg-desktop-portal-gtk
+        - xdg-desktop-portal
+        - gnome-keyring
       exclude:
         - alacritty
     remove:
