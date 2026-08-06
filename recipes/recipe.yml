@@ -22,6 +22,7 @@ modules:
       copr:
         - atim/starship
         - avengemedia/dms
+        - scottames/ghostty
     install:
       packages:
         - micro
@@ -29,6 +30,7 @@ modules:
         - niri
         - dms
         - dms-greeter
+        - ghostty
         # Required for file picker popup to work in Firefox.
         # ref: https://niri-wm.github.io/niri/Important-Software.html#portals
         - xdg-desktop-portal-gtk
