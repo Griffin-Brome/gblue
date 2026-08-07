@@ -36,6 +36,7 @@ modules:
         - xdg-desktop-portal-gtk
         - xdg-desktop-portal
         - gnome-keyring
+        - nautilus
       exclude:
         - alacritty
     remove:
