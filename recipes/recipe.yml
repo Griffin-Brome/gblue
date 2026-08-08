@@ -63,6 +63,9 @@ modules:
     system:
       enabled:
         - greetd
+    user:
+      enabled:
+        - dsearch
 
   - type: kargs
     kargs:
