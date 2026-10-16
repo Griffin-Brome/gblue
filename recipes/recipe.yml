@@ -17,6 +17,10 @@ modules:
       - source: system
         destination: / # copies files/system/* (* means everything inside it) into your image's root folder /
 
+  - type: script
+    snippets:
+      - "systemd-hwdb update --usr" # compile udev hardware db with custom rules
+
   - type: dnf
     repos:
       copr:
